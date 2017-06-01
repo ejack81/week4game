@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+
+<html lang="en.us">
+
+<head>
+	
+	
+	<title>Crystal Number Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous">
+	 </script>
+
+</head>
+
+<body>
+
+<div class="section">
+	<div class="row">
+		<div class="col-4-md" id="title">
+			<h3>Crystal Collector</h3> 
+		</div>
+		<div class="col-8-md">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-6-md" id="instructions">
+			<p>Click a gem</p>
+			<br>
+			<p>pick a color</p>
+			<br>
+			<p>prediction</p>
+		</div>
+		<div class="col-6-md">
+	</div>
+
+	<div class="row" id="scores">
+		<div class="col-3-md" id="rand-num">
+			<p class="word"><span id="randNum"></span></p>
+		</div>	
+		<div class="col-2-md" id="scoreboard">
+			<p class="wins">Wins: <span id="winScore"></span></p>
+			<p class="losses">Losses: <span id="lossScore"></span></p>
+		</div>
+		<div class="col-7-md">
+		</div>
+	</div>
+
+	<div class="row" id="button-div">
+		<div class="col-1-md" id="ruby">
+		<button class="btn btn-default btn-sm normal-button"><img src="assets/images/ruby.png" id="button-image"></span></button>
+		</div>
+		<div class="col-1-md" id="diamond">
+		<button class="btn btn-default btn-sm normal-button"><img src="assets/images/diamond.png" id="button-image"></span></button>
+		</div>
+		<div class="col-1-md" id="sapphire">
+		<button class="btn btn-default btn-sm normal-button"><img src="assets/images/sapphire.png" id="button-image"></span></button>
+		</div>
+		<div class="col-1-md" id="emerald">
+		<button class="btn btn-default btn-sm normal-button"><img src="assets/images/emerald.png" id="button-image"></span></button>
+		</div>
+		<div class="col-8-md">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-3-md" id="label">
+			<p class="losses">Your Total Score Is: </p>
+		</div>
+		<div class="col-9-md">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-3-md" id="player-points">
+			<p class="word"><span id="playerPoints"></span></p>
+		</div>
+		<div class="col-9-md">
+		</div>
+	</div>
+</div>
+</div>
+
+	<!-- Link to JS -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>	
+
+</body>
+</html>

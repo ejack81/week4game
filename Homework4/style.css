@@ -1,0 +1,119 @@
+body {
+	background-image: url("../images/recycle.png");
+	max-width: 100%;
+}
+
+#button-image {
+	display: inline-block;
+	height: 76px;
+	padding: 0px;
+	margin: 0px;
+	width: 76px;
+}
+
+#scores {
+	margin-left: 0px;
+	display: inline-block;
+}
+
+#rand-num {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-top: 10px;
+	margin-left: 35px;
+	padding: 50px 140px;
+	background-color: lightblue;
+	max-width: 300px;
+	float: left;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+#scoreboard {
+	border-style: dotted;
+	border-width: 1px;
+	border-color: black;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding-right: 140px;
+	padding-bottom: 52px;
+	line-height: 30px;
+	float: left;
+	max-width: 100px;
+}
+
+.button-div {
+	display: inline-block;
+	width: 5px;
+	margin: 10px;
+}
+
+.normal-button {
+	margin: 0px;
+}
+
+.col-1-md {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#ruby {
+	margin-left: 45px;
+}
+
+p, h3 {
+	font-family: 'Lobster', cursive;
+	z-index: 1;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+#instructions {
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+	margin-right: 800px;
+	margin-left: 35px;
+	background-color: orange;
+	opacity: .8;
+}
+
+#title {
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+	margin-right: 800px;
+	margin-left: 35px;
+	background-color: #4aaaa5;
+	opacity: .8;
+}
+
+#label {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-top: 10px;
+	margin-left: 45px;
+	background-color: green;
+	max-width: 300px;
+	text-align: center;
+}
+
+#player-points {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-top: 10px;
+	margin-left: 45px;
+	background-color: green;
+	max-width: 300px;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 40px;
+	line-height: 80px;
+}
